@@ -150,7 +150,7 @@ char* shortestPath_S(char* input)
     input += 2;
     int to = char2int(*input);
 
-    printf("Dijsktra shortest path: %d\n", dijsktra(from, to));
+    printf("Dijsktra shortest path: %d \n", dijsktra(from, to));
 
     return input + 2;
 }
@@ -173,7 +173,7 @@ char* tsp_T(char* input)
         input += 2;
     }
 
-    printf("TSP shortest path: %d\n", tsp(k, nodes));
+    printf("TSP shortest path: %d \n", tsp(k, nodes));
 
     return input;
 }

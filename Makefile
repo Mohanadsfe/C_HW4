@@ -1,5 +1,5 @@
 # Makefile for TCP project
-.PHONY = all clean 
+.PHONY = all clean
 CC=gcc
 OBJS=algo.o  edges.o nodes.o main.o
 EXEC=graph
