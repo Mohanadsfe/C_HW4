@@ -35,6 +35,8 @@ int main()
     deleteCurrentGraph();
 
     free(input);
+	
+	return 0;
 }
 
 // this function parses the input, each iteration parses one command ('A', 'B', 'D', 'S', 'T')
